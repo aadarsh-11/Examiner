@@ -1,0 +1,30 @@
+							User Guide:-
+
+1.Only the "Set Question Paper.h" file must be edited. Other files MUST not be touched.
+
+2.You need to fill the following details about the Examination/Test:-
+  a.Title in the heading function.
+  b.Total time of the exam in totaltime function.
+  c.Number of questions in the noq function.
+  d.Marking Scheme.
+  e.Passing Marks.
+  f.Answerkey in answer[] array.
+  g.Questions in questions function.
+
+3.You may add more instructions if you wish so.
+
+4.By Default there are only 10 blank questions. You may add more if you want by copy pasting any one of blank question and make changes accordingly.
+
+5.If you wish to have less than 10  questions, then erase the remaning blank questions.
+
+6.The default values in the paper are:-
+  a.time: 1hour
+  b.marking scheme: +4,-1
+  c.number of questions: 10
+  d.title: **EXAM NAME**
+  e.passing marks: 20
+  f.answerkey: all questions has option 1 as its answer
+
+7.After making changes make sure you compile the current file and the main c source file before executing the program.
+
+8.Use full screen mode for best experience as the application is  desined for it and the design may look improper without it
